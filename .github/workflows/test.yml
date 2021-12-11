@@ -3,7 +3,8 @@ name: "Test"
 on:
   push:
     branches: [ main]
-  pull_request
+  pull_request:
+    # The branches below must be a subset of the branches above
     branches: [ main ]
 
 jobs:
